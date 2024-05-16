@@ -15,8 +15,3 @@ This is the project assessment submitted for ETH Proof: Beginner EVM Course, whi
 ## Authors
 
 Jhon Carlo Facto
-
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
