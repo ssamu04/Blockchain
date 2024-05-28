@@ -1,5 +1,5 @@
 let NFTs = [];
-
+ 
 function mintNFT(name, description, artist) {
     const NFT = {
         name: name,
