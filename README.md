@@ -12,6 +12,10 @@ This is the project assessment submitted for JS Proof: Beginner Course, which en
 
 This is the project assessment submitted for ETH Proof: Beginner EVM Course, which entails creating a token in Solidity.
 
+### errorhandling.sol
+
+This is the Module 1 assessment submitted for ETH + AVAX proof, which entails implementing revert, require, and assert functions in Solidity.
+
 ## Authors
 
 Jhon Carlo Facto
