@@ -7,7 +7,7 @@ This is a repository for works submitted through the Metacrafter platform.
 
 ### ETH + AVAX folder
 
-Contains project folders submitted for ETH + AVAX proof.
+Contains project folders submitted for ETH + AVAX PROOF: Intermediate EVM Course.
 
 ### nft.js
 
