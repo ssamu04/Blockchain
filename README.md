@@ -4,6 +4,11 @@ This is a repository for works submitted through the Metacrafter platform.
 
 ## Description
 
+
+### ETH + AVAX folder
+
+Contains project folders submitted for ETH + AVAX proof.
+
 ### nft.js
 
 This is the project assessment submitted for JS Proof: Beginner Course, which entails creating an object called NFTs in Javascript.
