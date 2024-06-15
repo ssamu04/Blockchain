@@ -21,6 +21,10 @@ This is the project assessment submitted for ETH Proof: Beginner EVM Course, whi
 
 This is the Module 1 assessment submitted for ETH + AVAX proof, which entails implementing revert, require, and assert functions in Solidity.
 
+### customToken.sol
+
+This is the project assessment submitted for ETH + AVAX proof, which entails creating a custom ERC20 token in Solidity.
+
 ## Authors
 
 Jhon Carlo Facto
