@@ -6,6 +6,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MyToken is ERC20, Ownable {
     mapping(string => uint256) public itemCost;
+    mapping(address => string[]) public playerInventory;
+
     constructor() ERC20("Degen", "DGN") Ownable(msg.sender) {
         itemCost["Gun"] = 20;
         itemCost["Armor"] = 15;
@@ -28,10 +30,15 @@ contract MyToken is ERC20, Ownable {
         return balanceOf(msg.sender);
     }
 
-    function redeem(string memory item) external  {
+    function redeemItem(string memory item) external  {
         uint256 cost = itemCost[item];
         require(cost > 0, "Invalid item");
         _burn(msg.sender, cost);
+        playerInventory[msg.sender].push(item);
+    }
+
+    function viewInventory() public view returns (string[] memory) {
+        return playerInventory[msg.sender];
     }
 }
 
