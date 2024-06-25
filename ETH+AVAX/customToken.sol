@@ -4,9 +4,6 @@ pragma solidity ^0.8.13;
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.0.0/contracts/token/ERC20/ERC20.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.0.0/contracts/access/Ownable.sol";
 
-// string public constant owner = "0xOwnerAddress";
-// require(msg.sender == owner, "Only the owner can mint tokens");
-
 contract CustomToken is ERC20, Ownable {
     constructor(uint256 initialSupply) ERC20("Falcoin", "FLC") {
         // 1 token = 1 * (10 ** decimals)
@@ -24,5 +21,9 @@ contract CustomToken is ERC20, Ownable {
 
     function burn(uint256 amount) external {
         _burn(msg.sender, amount);
+    }
+
+    function transferToken(address destination, uint256 amount) public {
+        _transfer(msg.sender, destination, amount);
     }
 }
