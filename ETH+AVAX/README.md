@@ -4,6 +4,10 @@ Contains project folders submitted for ETH + AVAX PROOF: Intermediate EVM Course
 
 ## Description
 
+### Degen-Token
+
+This is the Module 4 assessment submitted for ETH + AVAX Course, which entails creating a Degen ERC20 token and deployed in Avalanche network.
+
 ### SCM-Starter
 
 This is the Module 2 assessment submitted for ETH + AVAX Course, which entails a project with functions for frontend.
